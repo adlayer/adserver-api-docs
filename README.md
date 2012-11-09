@@ -28,16 +28,36 @@ Todos os recursos desta API retornam o formato JSON e para suportar chamadas cro
 ### Exemplo
 JSON
 ```json
-{}
+{
+	"_id": "5091c7a4496c4f318d490117ee58a4a5",
+	"name": "Shot",
+	"file": "http://dev.ads.adlayerapp.com/13/5091c7a4496c4f318d490117ee58a4a5.jpg",
+	"campaign_id": "5091c79265b04fddaad6007cee58a4a5",
+	"link": "",
+	"type": "image",
+	"width": "300",
+	"height": "250",
+	"status": true
+}
 ```
 JSONP
 ```javascript
-callback({})
+callback({
+	"_id": "5091c7a4496c4f318d490117ee58a4a5",
+	"name": "Shot",
+	"file": "http://dev.ads.adlayerapp.com/13/5091c7a4496c4f318d490117ee58a4a5.jpg",
+	"campaign_id": "5091c79265b04fddaad6007cee58a4a5",
+	"link": "",
+	"type": "image",
+	"width": "300",
+	"height": "250",
+	"status": true
+})
 ```
 
-## API
-* [Pages](http://github.com/adlayer/adserver-api-doc)
-* [Ads](http://github.com/adlayer/adserver-api-doc)
+## [API](https://github.com/adlayer/adserver-api-docs/tree/master/api)
+* [Pages](https://github.com/adlayer/adserver-api-docs/blob/master/api/pages.md)
+* [Ads](https://github.com/adlayer/adserver-api-docs/blob/master/api/ads.md)
 
-## Clientes e Wrapper oficiais
+## Clientes e Wrapper Oficiais
 [Adlayer javascript api](http://github.com/adlayer/javascript-api)
