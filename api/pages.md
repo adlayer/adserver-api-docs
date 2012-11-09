@@ -1,8 +1,8 @@
 # Pages
 
-+---------+-----+------------+
-|Parametro|Valor|Valor Padrão|
-+=========+=====+============+
+|Parametro|Valor|Valor padrão|
+|---------|-----|------------|
+|teste    |  1  |            |
 
 ```http
 GET /pages/82e719877b60e205471a9d8ef00564ab HTTP/1.1
