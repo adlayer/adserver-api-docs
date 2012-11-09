@@ -1,4 +1,5 @@
 # Pages
+```/pages/:id```
 O endpoint ```/pages``` suporta os seguintes parametros:
 
 |Parametro    |Valor |Valor padrão|Requerido|
