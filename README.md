@@ -4,7 +4,7 @@ Este documento descreve a API do Ad server da [Adlayer](http://adlayer.com.br).
 
 A Adserver API permite que consulte *dados públicos das contas Adlayer
 
-* Como dados públicos este documento se refere a informações geradas por uma conta Adlayer, mas que precisa ser acessível para todos os usuários da WEB.
+> *Como dados públicos este documento se refere a informações geradas por uma conta Adlayer, mas que precisa ser acessível para todos os usuários da WEB.
 
 Esta API não permite que se acesse dados provados e sigilosos da conta como: campanhas que estão inativas ou que ainda não iniciaram sua entrega, dados pessoais dos usuários de conta Adlayer, nada que não seja extremamente relevante aos visitantes de sites integrados, nem nenhum nada que comprometa a segurança e privacidade dos usuários Adlayer e suas organizações.
 
