@@ -1,4 +1,4 @@
-# Pages
+# Ads (peças publicitárias)
 >/ads/:id
 
 O endpoint ```/ads``` permite acessar as propriedades de uma peça dado um id único valido.
