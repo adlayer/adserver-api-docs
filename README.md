@@ -2,6 +2,11 @@
 
 Este documento descreve a API do [Adlayer](http://adlayer.com.br) Adserver.
 
+## Propósito
+A [Adlayer](http://adlayer.com.br) acredita que a transparência com usuários é o melhor caminho para o bom relacionamento.
+
+Esta documentação foi elaborada para que integradores e desenvolvedores relacionados com a tecnologia Adlayer, entendam como funciona e quais as opções de interação com a plataforma de [Adserving](http://adlayer.com.br/ad-server) da Adlayer.
+
 A ***Adlayer Adserver API*** permite que se consulte dados públicos das contas Adlayer.
 
 ## Privacidade
@@ -10,9 +15,6 @@ A ***Adlayer Adserver API*** permite que se consulte dados públicos das contas 
 Esta API não permite que se acesse dados privados e sigilosos da conta como: campanhas que estão inativas ou que ainda não iniciaram sua entrega, dados pessoais dos usuários, nada que não seja extremamente relevante aos visitantes de sites integrados, nem nada que comprometa a segurança e privacidade dos usuários Adlayer e suas organizações.
 
 Se precisar acessar dados privados via fora da interface Adlayer, [entre em contato](mailto:contato@adlayer.org) conosco e solicite a documentação da ***Adlayer Core API*** (em breve documentação pública).
-
-## Propósito
-A Adlayer acredita na transparência esta documentação foi elaborada para que integradores e desenvolvedores relacionados com a tecnologia Adlayer entendam como funciona e quais as opções de interação com a plataforma de Adserving da Adlayer.
 
 ## Métodos
 Esta API foi projetada com caráter "Read-only" (somente leitura), portanto o único método http suportado é o comando ```GET```.
