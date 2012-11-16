@@ -15,7 +15,9 @@ Esta API foi projetada com caráter "Read-only" (somente leitura), portanto o ú
 ## Requisições
 Para utilizar esta API você deve fazer uma requisição http para a seguinte url ```http://jocasta.adlayerapp.com```
 ### Exemplo
-```curl GET http://jocasta.adlayerapp.com/pages/:id```
+```http
+GET http://jocasta.adlayerapp.com/pages/:id HTTP/1.1
+```
 
 Dado que está API só exibe dados públicos nenhum tipo de autenticação é necessária.
 
