@@ -9,13 +9,6 @@ Esta documentação foi elaborada para que integradores e desenvolvedores relaci
 
 A ***Adlayer Adserver API*** permite que se consulte dados públicos das contas Adlayer.
 
-## Privacidade
-> Como dados públicos este documento se refere a informações geradas por uma conta Adlayer, mas que precisam ser acessível para todos os usuários da WEB.
-
-Esta API não permite que se acesse dados privados e sigilosos da conta como: campanhas que estão inativas ou que ainda não iniciaram sua entrega, dados pessoais dos usuários, nada que não seja extremamente relevante aos visitantes de sites integrados, nem nada que comprometa a segurança e privacidade dos usuários Adlayer e suas organizações.
-
-Se precisar acessar dados privados via fora da interface Adlayer, [entre em contato](mailto:contato@adlayer.org) conosco e solicite a documentação da ***Adlayer Core API*** (em breve documentação pública).
-
 ## Métodos
 Esta API foi projetada com caráter "Read-only" (somente leitura), portanto o único método http suportado é o comando ```GET```.
 
@@ -75,6 +68,13 @@ callback({
 Confira a documentação de cada recurso especificamente:
 * [Pages](https://github.com/adlayer/adserver-api-docs/blob/master/api/pages.md)
 * [Ads](https://github.com/adlayer/adserver-api-docs/blob/master/api/ads.md)
+
+## Privacidade
+> Como dados públicos este documento se refere a informações geradas por uma conta Adlayer, mas que precisam ser acessível para todos os usuários da WEB.
+
+Esta API não permite que se acesse dados privados e sigilosos da conta como: campanhas que estão inativas ou que ainda não iniciaram sua entrega, dados pessoais dos usuários, nada que não seja extremamente relevante aos visitantes de sites integrados, nem nada que comprometa a segurança e privacidade dos usuários Adlayer e suas organizações.
+
+Se precisar acessar dados privados via fora da interface Adlayer, [entre em contato](mailto:contato@adlayer.org) conosco e solicite a documentação da ***Adlayer Core API*** (em breve documentação pública).
 
 ## Clientes e Wrapper Oficiais
 [Adlayer javascript api](http://github.com/adlayer/javascript-api)
