@@ -29,7 +29,7 @@ Dado que está API só exibe dados públicos nenhum tipo de autenticação é ne
 ## Respostas
 Todos os recursos desta API retornam o formato JSON e para suportar chamadas cross-domain de wrapper javascript o suporte a JSONP também está habilitado.
 ### Exemplo
-JSON
+* JSON
 ```http
 GET /ads/5091c7a4496c4f318d490117ee58a4a5 HTTP/1.1
 Host: jocasta.adlayerapp.com
@@ -50,12 +50,13 @@ Accept: application/json
 }
 ```
 
+* JSONP
 ```http
 GET /ads/5091c7a4496c4f318d490117ee58a4a5?callback=callback HTTP/1.1
 Host: jocasta.adlayerapp.com
 Accept: text/javascript
 ```
-JSONP
+
 ```javascript
 callback({
 	"_id": "5091c7a4496c4f318d490117ee58a4a5",
