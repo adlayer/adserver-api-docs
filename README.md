@@ -72,7 +72,7 @@ Confira a documentação de cada recurso especificamente:
 
 Esta API não permite que se acesse dados privados e sigilosos da conta como: campanhas que estão inativas ou que ainda não iniciaram sua entrega, dados pessoais dos usuários, nada que não seja extremamente relevante aos visitantes de sites integrados, nem nada que comprometa a segurança e privacidade dos usuários Adlayer e suas organizações.
 
-Se precisar acessar dados privados via fora da interface Adlayer, [entre em contato](mailto:contato@adlayer.org) conosco e solicite a documentação da ***Adlayer Core API*** (em breve documentação pública).
+Se precisar acessar dados privados via http fora da interface Adlayer, [entre em contato](mailto:contato@adlayer.org) conosco e solicite a documentação da ***Adlayer Core API*** (em breve documentação pública).
 
 ## Clientes e Wrapper Oficiais
 [Adlayer javascript api](http://github.com/adlayer/javascript-api)
