@@ -15,17 +15,17 @@ Esta API foi projetada com caráter "Read-only" (somente leitura), portanto o ú
 
 
 ## Requisições e Respostas
-Para utilizar esta API você deve fazer uma requisição http para a seguinte url **http://jocasta.adlayerapp.com**
 
-### Exemplo
+Para utilizar esta API você deve fazer as requisições http para a seguinte url: **http://jocasta.adlayerapp.com**
+
+### Exemplo de requisição
 ```http
 GET http://jocasta.adlayerapp.com/pages/:id HTTP/1.1
 ```
+----------------
+Todos os recursos desta API retornam o formato JSON e para suportar chamadas cross-domain de wrappers javascript, o suporte a JSONP também está habilitado.
 
-Todos os recursos desta API retornam o formato JSON e para suportar chamadas cross-domain de wrapper javascript o suporte a JSONP também está habilitado.
-
-### Exemplo
-JSON
+### JSON
 ```http
 GET /ads/5091c7a4496c4f318d490117ee58a4a5 HTTP/1.1
 Host: jocasta.adlayerapp.com
@@ -46,7 +46,7 @@ Accept: application/json
 }
 ```
 
-JSONP
+### JSONP
 ```http
 GET /ads/5091c7a4496c4f318d490117ee58a4a5?callback=callback HTTP/1.1
 Host: jocasta.adlayerapp.com
