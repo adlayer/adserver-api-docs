@@ -12,17 +12,18 @@ A ***Adlayer Adserver API*** permite que se consulte dados públicos das contas 
 ## Métodos
 Esta API foi projetada com caráter "Read-only" (somente leitura), portanto o único método http suportado é o comando ```GET```.
 
-## Requisições
+
+
+## Requisições e Respostas
 Para utilizar esta API você deve fazer uma requisição http para a seguinte url ```http://jocasta.adlayerapp.com```
+
 ### Exemplo
 ```http
 GET http://jocasta.adlayerapp.com/pages/:id HTTP/1.1
 ```
 
-Dado que está API só exibe dados públicos nenhum tipo de autenticação é necessária.
-
-## Respostas
 Todos os recursos desta API retornam o formato JSON e para suportar chamadas cross-domain de wrapper javascript o suporte a JSONP também está habilitado.
+
 ### Exemplo
 JSON
 ```http
