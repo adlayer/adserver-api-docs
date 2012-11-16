@@ -15,7 +15,7 @@ Esta API foi projetada com caráter "Read-only" (somente leitura), portanto o ú
 
 
 ## Requisições e Respostas
-Para utilizar esta API você deve fazer uma requisição http para a seguinte url ```http://jocasta.adlayerapp.com```
+Para utilizar esta API você deve fazer uma requisição http para a seguinte url **http://jocasta.adlayerapp.com**
 
 ### Exemplo
 ```http
