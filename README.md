@@ -1,13 +1,8 @@
 # Adlayer Adserver API
 
-Este documento descreve a API do [Adlayer](http://adlayer.com.br) Adserver.
+A Adlayer Adserver API permite que se consulte dados públicos das contas Adlayer.
 
-## Propósito
-A [Adlayer](http://adlayer.com.br) acredita que a transparência com usuários é o melhor caminho para o bom relacionamento.
-
-Esta documentação foi elaborada para que integradores e desenvolvedores relacionados com a tecnologia Adlayer, entendam como funciona e quais as opções de interação com a plataforma de [Adserving](http://adlayer.com.br/ad-server) da Adlayer.
-
-A ***Adlayer Adserver API*** permite que se consulte dados públicos das contas Adlayer.
+Este documento descreve a API do ***[Adlayer](http://adlayer.com.br) Adserver*** e foi elaborada para que integradores e desenvolvedores relacionados com a tecnologia Adlayer, entendam como funciona e quais as opções de interação com a plataforma de [Adserving](http://adlayer.com.br/ad-server) da Adlayer.
 
 ## Métodos
 Esta API foi projetada com caráter "Read-only" (somente leitura), portanto o único método http suportado é o comando ```GET```.
@@ -23,7 +18,7 @@ Para utilizar esta API você deve fazer as requisições http para a seguinte ur
 GET http://jocasta.adlayerapp.com/pages/:id HTTP/1.1
 ```
 ----------------
-Todos os recursos desta API retornam o formato JSON e para suportar chamadas cross-domain de wrappers javascript, o suporte a JSONP também está habilitado.
+Todos os recursos desta API retornam o formato ```JSON``` por padrão e para suportar chamadas cross-domain de wrappers javascript, o suporte a ```JSONP``` também está habilitado.
 
 ### JSON
 ```http
