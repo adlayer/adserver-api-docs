@@ -1,4 +1,4 @@
-# Pages
+# Spaces
 >/Spaces/:id
 
 O endpoint ```/spaces``` suporta os seguintes parametros:
