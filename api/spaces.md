@@ -1,5 +1,5 @@
 # Spaces
->/Spaces/:id
+>/spaces/:id
 
 O endpoint ```/spaces``` suporta os seguintes parametros:
 
