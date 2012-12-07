@@ -19,7 +19,7 @@ Host: jocasta.adlayerapp.com
 {"ok":false,"error":"Space not found"}
 ```
 
-## Com domínio habilitado
+## Espaço existente
 
 ```http
 GET /spaces/50b4ebebf76c4e7e91d8560ed8779272
