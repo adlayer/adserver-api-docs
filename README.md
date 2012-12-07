@@ -66,6 +66,7 @@ callback({
 Confira a documentação de cada recurso especificamente:
 * [Pages](https://github.com/adlayer/adserver-api-docs/blob/master/api/pages.md)
 * [Ads](https://github.com/adlayer/adserver-api-docs/blob/master/api/ads.md)
+* [Spaces](https://github.com/adlayer/adserver-api-docs/blob/master/api/spaces.md)
 
 ## Privacidade
 > Como dados públicos este documento se refere a informações geradas por uma conta Adlayer, mas que precisam ser acessível para todos os usuários da WEB.
