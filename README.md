@@ -4,6 +4,12 @@ A Adlayer Adserver API permite que se consulte dados públicos das contas Adlaye
 
 Este documento descreve a API do ***[Adlayer](http://adlayer.com.br) Adserver*** e foi elaborada para que integradores e desenvolvedores relacionados com a tecnologia Adlayer, entendam como funciona e quais as opções de interação com a plataforma de [Adserving](http://adlayer.com.br/ad-server) da Adlayer.
 
+## [API](https://github.com/adlayer/adserver-api-docs/tree/master/api) - Documentação completa
+Confira a documentação de cada recurso especificamente:
+* [Pages](https://github.com/adlayer/adserver-api-docs/blob/master/api/pages.md)
+* [Ads](https://github.com/adlayer/adserver-api-docs/blob/master/api/ads.md)
+* [Spaces](https://github.com/adlayer/adserver-api-docs/blob/master/api/spaces.md)
+
 ## Métodos
 Esta API foi projetada com caráter "Read-only" (somente leitura), portanto o único método http suportado é o comando ```GET```.
 
@@ -62,11 +68,7 @@ callback({
 })
 ```
 
-## [API](https://github.com/adlayer/adserver-api-docs/tree/master/api) - Documentação completa
-Confira a documentação de cada recurso especificamente:
-* [Pages](https://github.com/adlayer/adserver-api-docs/blob/master/api/pages.md)
-* [Ads](https://github.com/adlayer/adserver-api-docs/blob/master/api/ads.md)
-* [Spaces](https://github.com/adlayer/adserver-api-docs/blob/master/api/spaces.md)
+### [Veja a documentação completa](https://github.com/adlayer/adserver-api-docs/tree/master/api)
 
 ## Privacidade
 > Como "dados públicos" este documento se refere a informações geradas por uma conta Adlayer, mas que precisam ser acessível para todos os usuários da web.
