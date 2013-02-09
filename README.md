@@ -2,9 +2,9 @@
 
 A Adlayer Adserver API permite que se consulte dados públicos das contas Adlayer.
 
-Este documento descreve a API do ***[Adlayer](http://adlayer.com.br) Adserver*** e foi elaborada para que integradores e desenvolvedores relacionados com a tecnologia Adlayer, entendam como funciona e quais as opções de interação com a plataforma de [Adserving](http://adlayer.com.br/ad-server) da Adlayer.
+Este documento descreve a API do [Adlayer Adserver](http://adlayer.com.br) e foi elaborada para que integradores e desenvolvedores relacionados com a tecnologia Adlayer, entendam como funciona e quais as opções de interação com a plataforma de [Adserving](http://adlayer.com.br/ad-server) da Adlayer.
 
-## [API](https://github.com/adlayer/adserver-api-docs/tree/master/api) - Documentação completa
+## [API](https://github.com/adlayer/adserver-api-docs/tree/master/api)
 Confira a documentação de cada recurso especificamente:
 * [Pages](https://github.com/adlayer/adserver-api-docs/blob/master/api/pages.md)
 * [Ads](https://github.com/adlayer/adserver-api-docs/blob/master/api/ads.md)
