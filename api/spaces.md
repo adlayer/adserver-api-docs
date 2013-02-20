@@ -28,9 +28,15 @@ Host: jocasta.adlayerapp.com
 ```
 
 ```json
-{"id": "",
+{
+	"_id": "50b4ebebf76c4e7e91d8560ed8779272",
+  "name": "Fullbanner",
+  "size": {
+    "width": "100px",
+    "height": "200px"
+  },
   "type": "static",
-  "status": "",
+  "status": "true",
   "ads": [
     {
       "_id": "50b4ee58fe4c47338ace5612d8779272",
@@ -44,12 +50,5 @@ Host: jocasta.adlayerapp.com
       "status": true
     }
   ],
-  "behaviour": {},
-  "_id": "50b4ebebf76c4e7e91d8560ed8779272",
-  "name": "Fullbanner",
-  "size": {
-    "width": "px",
-    "height": "px"
-  }
 }
 ```
